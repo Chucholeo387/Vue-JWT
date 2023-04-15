@@ -65,6 +65,11 @@
 import { defineComponent, ref } from "vue";
 import { useRouter } from "vue-router";
 import { api } from "../boot/axios";
+import moment from "moment";
+
+console.log(moment().format("DD MM YYYY h:mm"));
+console.log(moment().format("l h:mm"));
+console.log(moment().format("l 23:59"));
 
 const username = ref("");
 const password = ref("");

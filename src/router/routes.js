@@ -30,8 +30,18 @@ const routes = [
       },
       {
         path: "/register-graph",
-        name: "graph",
+        name: "registergraph",
         component: () => import("../pages/RegisterGraphPage.vue"),
+      },
+      {
+        path: "/login-graph",
+        name: "graph",
+        component: () => import("../pages/LoginGraphPage.vue"),
+      },
+      {
+        path: "/secretgraph",
+        name: "secretgraph",
+        component: () => import("../pages/SecretGraphPage.vue"),
       },
     ],
   },
